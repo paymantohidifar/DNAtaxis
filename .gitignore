@@ -1,0 +1,10 @@
+# raw_data for ngs
+chipseq/raw_data/*.fastqc
+selexseq/raw_data/*.fastqc
+
+# Other analysis
+old_analysis/
+
+# Pycharm
+.idea/
+
