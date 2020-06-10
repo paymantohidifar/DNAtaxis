@@ -1,0 +1,12 @@
+Bacillus subtilis 168
+Bacillus megaterium QM B1551 (plasmidless (7p-) from Patricia S. Vary, PMID:  2550328)
+Bacillus pumilus
+Bacillus licheniformis (without plasmid)
+Bacillus halodurans C-125 (grows best in pH 9.5-10.5)
+Geobacillus thermoglucosidasius C56-YS93 (without plasmid)
+Vibrio Splendidus 12B01
+Escherichia coli K12 MG1655
+Zymomonas mobilis ZM4
+Salmonella typhimurium LT2 (from Robert M. Macnab)
+Herring sperm
+M13 phage

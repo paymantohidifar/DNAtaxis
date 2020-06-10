@@ -1,0 +1,11 @@
+Bacillus subtilis 168
+Bacillus megaterium QM B1551
+Bacillus pumilus
+Bacillus licheniformis
+Bacillus halodurans C-125
+Geobacillus thermoglucosidasius C56-YS93
+Vibrio Splendidus 13B01
+Escherichia coli K12 MG1655
+Zymomonas mobilis ZM4
+Salmonella typhimurium LT2
+Escherichia virus Lambda
