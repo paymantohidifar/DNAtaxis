@@ -10,3 +10,6 @@ old_analysis/
 
 # genomic references sequences
 motifanalysis/reference_data/*.zip
+
+# pycache files
+*.pyc
