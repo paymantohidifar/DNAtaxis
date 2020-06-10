@@ -12,4 +12,5 @@ old_analysis/
 motifanalysis/reference_data/*.zip
 
 # pycache files
-*.pyc
+motifanalysis/scripts*.pyc
+motifanalysis/scripts/py_classes/__pycache__
