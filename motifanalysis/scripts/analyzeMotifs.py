@@ -1,18 +1,8 @@
 from py_classes.chromosome import Chromosome
 import pandas as pd
 import scipy.stats
-from numpy import mod
 import pylab
 import matplotlib.pyplot as plt
-
-
-def analyze_kmers(names, seq, size):
-    kmer_info = []
-    for name, taxid in names.items():
-        chrobj = Chromosome(refdir + taxid + '.zip', seq) if seq \
-            else Chromosome(refdir + taxid + '.zip', '', size)
-        kmer_info.append((name, chrobj.process_motifs()))
-    return generate_kmers_df(kmer_info)
 
 
 def analyze_chromosome(names, seq, size):
@@ -24,54 +14,13 @@ def analyze_chromosome(names, seq, size):
     return generate_chromosome_df(chr_info)
 
 
-# def generate_kmers_df(kmerinfo):
-#     """constructs data frames for count and average
-#     distance data of all kmers for each chromosome"""
-#     cdict = {}
-#     ddict = {}
-#     for chr_name, kmers_gen in kmerinfo:
-#         print('Processing: ', chr_name, 50 * '-', sep='\n')
-#         idxlst = []
-#         cntlst = []
-#         distlst = []
-#         for kmer in kmers_gen:
-#             idxlst.append(kmer['kmer seq'])
-#             cntlst.append(kmer['count'])
-#             distlst.append(kmer['mean distance'])
-#         cdict.setdefault(chr_name, pd.Series(cntlst, index=idxlst))
-#         ddict.setdefault(chr_name, pd.Series(distlst, index=idxlst))
-#     count_df = pd.DataFrame(cdict)
-#     dist_df = pd.DataFrame(ddict)
-#     return count_df, dist_df
-
-
-def generate_kmers_df(kmerinfo):
-    """constructs data frames for count and average
-    distance data of all kmers for each chromosome"""
-    idxlst = []
-    cntlst = []
-    distlst = []
-    chr_name, kmers_gen = kmerinfo[0]
-    print('Processing: ', chr_name, 50 * '-', sep='\n')
-    for kmer in kmers_gen:
-        idxlst.append(kmer['kmer seq'])
-        cntlst.append(kmer['count'])
-        distlst.append(kmer['mean distance'])
-    cdict = {chr_name: cntlst}
-    ddict = {chr_name: distlst}
-
-    for chr_name, kmers_gen in kmerinfo[1:]:
-        print('Processing: ', chr_name, 50 * '-', sep='\n')
-        cntlst = []
-        distlst = []
-        for kmer in kmers_gen:
-            cntlst.append(kmer['count'])
-            distlst.append(kmer['mean distance'])
-        cdict.setdefault(chr_name, cntlst)
-        ddict.setdefault(chr_name, distlst)
-    count_df = pd.DataFrame(cdict, index=idxlst)
-    dist_df = pd.DataFrame(ddict, index=idxlst)
-    return count_df, dist_df
+def analyze_kmers(names, seq, size):
+    kmer_info = []
+    for name, taxid in names.items():
+        chrobj = Chromosome(refdir + taxid + '.zip', seq) if seq \
+            else Chromosome(refdir + taxid + '.zip', '', size)
+        kmer_info.append((name, chrobj.process_motifs()))
+    return generate_kmers_df(kmer_info)
 
 
 def generate_chromosome_df(chr_info):
@@ -81,6 +30,37 @@ def generate_chromosome_df(chr_info):
         chrinfodict.setdefault(chr[0], pd.Series(chr[1], index=['genome length', 'GC content']))
     chrinfo_df = pd.DataFrame(chrinfodict)
     return chrinfo_df
+
+
+def generate_kmers_df(kmerinfo):
+    """constructs data frames for count and average
+    distance data of all kmers for each chromosome"""
+    idxlst = []
+    cntlst = []
+    distlst = []
+    chr_name, kmers_gen = kmerinfo[0]
+    print('Processing: ', chr_name)
+    for kmer in kmers_gen:
+        idxlst.append(kmer['kmer seq'])
+        cntlst.append(kmer['count'])
+        distlst.append(kmer['mean distance'])
+    cdict = {chr_name: cntlst}
+    ddict = {chr_name: distlst}
+    print(25 * '-')
+
+    for chr_name, kmers_gen in kmerinfo[1:]:
+        print('Processing: ', chr_name)
+        cntlst = []
+        distlst = []
+        for kmer in kmers_gen:
+            cntlst.append(kmer['count'])
+            distlst.append(kmer['mean distance'])
+        cdict.setdefault(chr_name, cntlst)
+        ddict.setdefault(chr_name, distlst)
+        print(25 * '-')
+    count_df = pd.DataFrame(cdict, index=idxlst)
+    dist_df = pd.DataFrame(ddict, index=idxlst)
+    return count_df, dist_df
 
 
 def write_df_to_csv(df, filname):
@@ -105,7 +85,7 @@ def generate_corr_coeff_df(covar_df, response):
 
 def main():
     chrnames = {    # plasmid DNA sequences are excluded.
-                    # 'strain name':            'tax id'
+                    # 'strain name':            'taxonomy id'
                     'bacillus subtilis 168':    '224308',
                     'bacillus megaterium':      '545693',
                     'bacillus pumilus':         '1408',
@@ -121,15 +101,15 @@ def main():
     che_response = pd.Series(data=[1378.22, 1590.78, 1338.22, 708.44, 469.44, 465.33,
                                    560.56, 606.89, 612.00, 550.00, 352.33],
                              index=[name for name in chrnames.keys()])
-    # Inputs by user
+    # Inputs by the user
     kmerseq = 'CACAA'
     kmersize = None
 
-    # Analysis
+    # Run kmer analysis
     chrdata = analyze_chromosome(chrnames, kmerseq, kmersize)
     cdata, ddata = analyze_kmers(chrnames, kmerseq, kmersize)
 
-    # Write data as csv-formatted tables in 'results' subdirectory
+    # Write kmer analysis results as csv-formatted tables in 'results' subdirectory
     for df, df_name in [(chrdata, 'chr'), (cdata, 'count'), (ddata, 'distance')]:
         write_df_to_csv(df, df_name + '_table_{}'.format(kmerseq if kmerseq else kmersize))
 
