@@ -8,9 +8,8 @@ old_analysis/
 # Pycharm
 .idea/
 
-# genomic references sequences
+# genomic reference sequences
 motifanalysis/reference_data/*.zip
 
 # pycache files
-motifanalysis/scripts*.pyc
 motifanalysis/scripts/py_classes/__pycache__
