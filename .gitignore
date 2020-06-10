@@ -8,3 +8,5 @@ old_analysis/
 # Pycharm
 .idea/
 
+# genomic references sequences
+motifanalysis/reference_data/*.zip
