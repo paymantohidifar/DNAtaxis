@@ -1,0 +1,659 @@
+{
+  "scientific_name": "Bacillus subtilis subsp. subtilis str. 168",
+  "strain": "168",
+  "tax_id": "224308",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_000009045.1",
+  "sequence_length": "4215606",
+  "Submission_date": "2009-03-17"
+}
+{
+  "scientific_name": "Bacillus subtilis subsp. subtilis str. 168",
+  "strain": "168",
+  "tax_id": "224308",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_013009385.1",
+  "sequence_length": "4316079",
+  "Submission_date": "2020-05-11"
+}
+{
+  "scientific_name": "Bacillus subtilis subsp. subtilis str. 168",
+  "strain": "168",
+  "tax_id": "224308",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_012931705.1",
+  "sequence_length": "4227167",
+  "Submission_date": "2020-04-29"
+}
+{
+  "scientific_name": "Bacillus subtilis subsp. subtilis str. 168",
+  "strain": "168",
+  "tax_id": "224308",
+  "Assembly_level": "Chromosome",
+  "Assembly_accession": "GCF_002009135.1",
+  "sequence_length": "4215385",
+  "Submission_date": "2017-03-02"
+}
+{
+  "scientific_name": "Bacillus subtilis subsp. subtilis str. 168",
+  "strain": "168",
+  "tax_id": "224308",
+  "Assembly_level": "Chromosome",
+  "Assembly_accession": "GCF_002009095.1",
+  "sequence_length": "4215398",
+  "Submission_date": "2017-02-28"
+}
+{
+  "scientific_name": "Bacillus subtilis subsp. subtilis str. 168",
+  "strain": "168",
+  "tax_id": "224308",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_000789275.1",
+  "sequence_length": "4215619",
+  "Submission_date": "2014-12-04"
+}
+{
+  "scientific_name": "Bacillus subtilis subsp. subtilis str. 168",
+  "strain": "168",
+  "tax_id": "224308",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_000696635.1",
+  "sequence_length": "4170725",
+  "Submission_date": "2014-05-30"
+}
+{
+  "scientific_name": "Bacillus subtilis subsp. subtilis str. 168",
+  "strain": "168",
+  "tax_id": "224308",
+  "Assembly_level": "Chromosome",
+  "Assembly_accession": "GCF_000155325.1",
+  "sequence_length": "4214547",
+  "Submission_date": "2008-08-12"
+}
+--------------------------
+{
+  "scientific_name": "Bacillus megaterium QM B1551",
+  "strain": "QM B1551",
+  "tax_id": "545693",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_000025825.1",
+  "sequence_length": "5523192",
+  "Submission_date": "2010-04-08"
+}
+--------------------------
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": "SH-B9",
+  "tax_id": "1408",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_001578205.1",
+  "sequence_length": "3878815",
+  "Submission_date": "2016-03-01"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": null,
+  "tax_id": "1408",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_900573445.1",
+  "sequence_length": "3718359",
+  "Submission_date": "2018-11-01"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": null,
+  "tax_id": "1408",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_900411365.1",
+  "sequence_length": "3690614",
+  "Submission_date": "2018-06-24"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": "NCTC10337",
+  "tax_id": "1408",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_900186955.1",
+  "sequence_length": "3855667",
+  "Submission_date": "2017-08-15"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": "64-1",
+  "tax_id": "1408",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_012934255.1",
+  "sequence_length": "3667128",
+  "Submission_date": "2020-04-30"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": "SF-4",
+  "tax_id": "1408",
+  "Assembly_level": "Chromosome",
+  "Assembly_accession": "GCF_009937765.1",
+  "sequence_length": "3774709",
+  "Submission_date": "2020-01-28"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": "DE0331",
+  "tax_id": "1408",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_008764035.1",
+  "sequence_length": "4285323",
+  "Submission_date": "2019-10-01"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": "CH112a_4T",
+  "tax_id": "1408",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_008245265.1",
+  "sequence_length": "3688733",
+  "Submission_date": "2019-09-01"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": "CH95a_3T",
+  "tax_id": "1408",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_008180525.1",
+  "sequence_length": "3687435",
+  "Submission_date": "2019-09-01"
+}
+{
+  "scientific_name": "Bacillus pumilus",
+  "strain": "CH144a_4T",
+  "tax_id": "1408",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_008180455.1",
+  "sequence_length": "4024237",
+  "Submission_date": "2019-09-01"
+}
+--------------------------
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": null,
+  "tax_id": "1402",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_902386215.1",
+  "sequence_length": "4208157",
+  "Submission_date": "2019-08-10"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": "NCTC962",
+  "tax_id": "1402",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_900445385.1",
+  "sequence_length": "4296091",
+  "Submission_date": "2018-06-29"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": null,
+  "tax_id": "1402",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_900318095.1",
+  "sequence_length": "3705824",
+  "Submission_date": "2018-03-21"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": "R-53713",
+  "tax_id": "1402",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_900171545.1",
+  "sequence_length": "4253681",
+  "Submission_date": "2017-04-25"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": "VTM3R78",
+  "tax_id": "1402",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_900110715.1",
+  "sequence_length": "4084064",
+  "Submission_date": "2016-10-31"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": "24-4",
+  "tax_id": "1402",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_010578075.1",
+  "sequence_length": "4119640",
+  "Submission_date": "2020-02-13"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": "32-1",
+  "tax_id": "1402",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_010578005.1",
+  "sequence_length": "4178202",
+  "Submission_date": "2020-02-13"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": "SMIA-2",
+  "tax_id": "1402",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_009965255.1",
+  "sequence_length": "4292816",
+  "Submission_date": "2020-01-29"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": "P8_B2",
+  "tax_id": "1402",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_009662395.1",
+  "sequence_length": "4352529",
+  "Submission_date": "2019-11-14"
+}
+{
+  "scientific_name": "Bacillus licheniformis",
+  "strain": "DE0140",
+  "tax_id": "1402",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_008764315.1",
+  "sequence_length": "4593590",
+  "Submission_date": "2019-10-01"
+}
+--------------------------
+{
+  "scientific_name": "Bacillus halodurans C-125",
+  "strain": "C-125",
+  "tax_id": "272558",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_000011145.1",
+  "sequence_length": "4202352",
+  "Submission_date": "2004-05-11"
+}
+{
+  "scientific_name": "Bacillus halodurans",
+  "strain": null,
+  "tax_id": "86665",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_005671335.1",
+  "sequence_length": "4315604",
+  "Submission_date": "2019-05-23"
+}
+{
+  "scientific_name": "Bacillus halodurans",
+  "strain": "DSM 497",
+  "tax_id": "86665",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_004376175.1",
+  "sequence_length": "4191775",
+  "Submission_date": "2019-03-25"
+}
+--------------------------
+{
+  "scientific_name": "Parageobacillus thermoglucosidasius C56-YS93",
+  "strain": "C56-YS93",
+  "tax_id": "634956",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_000178395.2",
+  "sequence_length": "3993793",
+  "Submission_date": "2011-06-10"
+}
+--------------------------
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "BST398",
+  "tax_id": "29497",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_003345295.1",
+  "sequence_length": "5508387",
+  "Submission_date": "2018-07-30"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "CECT 8714",
+  "tax_id": "29497",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_900089845.1",
+  "sequence_length": "5414248",
+  "Submission_date": "2016-07-17"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "S7",
+  "tax_id": "29497",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_007858915.1",
+  "sequence_length": "5559141",
+  "Submission_date": "2019-08-06"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "CAIM 1923",
+  "tax_id": "29497",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_003573805.1",
+  "sequence_length": "5438350",
+  "Submission_date": "2018-09-18"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "OU02",
+  "tax_id": "29497",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_003408655.1",
+  "sequence_length": "5716165",
+  "Submission_date": "2018-08-20"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "1S_146",
+  "tax_id": "29497",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_003050545.1",
+  "sequence_length": "5384964",
+  "Submission_date": "2018-04-12"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "1S_113",
+  "tax_id": "29497",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_003050505.1",
+  "sequence_length": "5316465",
+  "Submission_date": "2018-04-12"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "1S_14",
+  "tax_id": "29497",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_003050485.1",
+  "sequence_length": "5323847",
+  "Submission_date": "2018-04-12"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "1S_296",
+  "tax_id": "29497",
+  "Assembly_level": "Scaffold",
+  "Assembly_accession": "GCF_003050465.1",
+  "sequence_length": "5394028",
+  "Submission_date": "2018-04-12"
+}
+{
+  "scientific_name": "Vibrio splendidus",
+  "strain": "5S_210",
+  "tax_id": "29497",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_003050445.1",
+  "sequence_length": "5279504",
+  "Submission_date": "2018-04-12"
+}
+--------------------------
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "K-12",
+  "tax_id": "83333",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_009832885.1",
+  "sequence_length": "4668489",
+  "Submission_date": "2020-01-07"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "70",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004919995.1",
+  "sequence_length": "4752841",
+  "Submission_date": "2019-04-29"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "SIEC197",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004832725.1",
+  "sequence_length": "4831324",
+  "Submission_date": "2019-04-23"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "SIEC033",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004831195.1",
+  "sequence_length": "4849415",
+  "Submission_date": "2019-04-23"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "SIEC034",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004831135.1",
+  "sequence_length": "4847078",
+  "Submission_date": "2019-04-23"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "SIEC017",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004831015.1",
+  "sequence_length": "5073754",
+  "Submission_date": "2019-04-23"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "72",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004803305.1",
+  "sequence_length": "5147865",
+  "Submission_date": "2019-04-22"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "69",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004803295.1",
+  "sequence_length": "5251274",
+  "Submission_date": "2019-04-22"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "68",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004803195.1",
+  "sequence_length": "5190058",
+  "Submission_date": "2019-04-22"
+}
+{
+  "scientific_name": "Escherichia coli K-12",
+  "strain": "65",
+  "tax_id": "83333",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_004803125.1",
+  "sequence_length": "5357883",
+  "Submission_date": "2019-04-22"
+}
+--------------------------
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "NRRL B-14022",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_007829055.1",
+  "sequence_length": "1858913",
+  "Submission_date": "2019-08-02"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "NRRL B-4286",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_007828775.1",
+  "sequence_length": "2066920",
+  "Submission_date": "2019-08-02"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "DSM 12497",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_007828755.1",
+  "sequence_length": "2112663",
+  "Submission_date": "2019-08-02"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "DSM 12494",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_006716005.1",
+  "sequence_length": "2110151",
+  "Submission_date": "2019-07-08"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "DSM 12495",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_006715985.1",
+  "sequence_length": "2074423",
+  "Submission_date": "2019-07-08"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "AN0101",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_006715975.1",
+  "sequence_length": "2103871",
+  "Submission_date": "2019-07-08"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "DSM 14017",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_006715965.1",
+  "sequence_length": "2094321",
+  "Submission_date": "2019-07-08"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "NRRL B-4492",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_006715935.1",
+  "sequence_length": "2037465",
+  "Submission_date": "2019-07-08"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "NRRL B-23394",
+  "tax_id": "542",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_006715795.1",
+  "sequence_length": "2023540",
+  "Submission_date": "2019-07-08"
+}
+{
+  "scientific_name": "Zymomonas mobilis",
+  "strain": "ZM4*",
+  "tax_id": "542",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_004168345.1",
+  "sequence_length": "2056361",
+  "Submission_date": "2019-02-12"
+}
+--------------------------
+{
+  "scientific_name": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2",
+  "strain": "LT2",
+  "tax_id": "99287",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_000006945.2",
+  "sequence_length": "4951383",
+  "Submission_date": "2016-01-13"
+}
+{
+  "scientific_name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
+  "strain": "14028S substr. JY996",
+  "tax_id": "588858",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_008244845.1",
+  "sequence_length": "4870263",
+  "Submission_date": "2019-09-03"
+}
+{
+  "scientific_name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
+  "strain": "14028S substr. GXS254",
+  "tax_id": "588858",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_008244825.1",
+  "sequence_length": "4869252",
+  "Submission_date": "2019-09-03"
+}
+{
+  "scientific_name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
+  "strain": "14028S substr. GXS259",
+  "tax_id": "588858",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_008244805.1",
+  "sequence_length": "4869261",
+  "Submission_date": "2019-09-03"
+}
+{
+  "scientific_name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
+  "strain": "14028S substr. GXS275",
+  "tax_id": "588858",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_008244785.1",
+  "sequence_length": "4870694",
+  "Submission_date": "2019-09-03"
+}
+{
+  "scientific_name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
+  "strain": "14028S",
+  "tax_id": "588858",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_000022165.1",
+  "sequence_length": "4964097",
+  "Submission_date": "2009-11-13"
+}
+{
+  "scientific_name": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2-4",
+  "strain": "LT2-4",
+  "tax_id": "1159899",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_000336215.1",
+  "sequence_length": "4807350",
+  "Submission_date": "2013-02-01"
+}
+{
+  "scientific_name": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2-4_delta.ramA::kan",
+  "strain": "LT2-4_delta.ramA::kan",
+  "tax_id": "1159900",
+  "Assembly_level": "Contig",
+  "Assembly_accession": "GCF_000336195.1",
+  "sequence_length": "4803602",
+  "Submission_date": "2013-02-01"
+}
+--------------------------
+{
+  "scientific_name": "Escherichia virus Lambda",
+  "strain": null,
+  "tax_id": "10710",
+  "Assembly_level": "Complete Genome",
+  "Assembly_accession": "GCF_000840245.1",
+  "sequence_length": "48502",
+  "Submission_date": "1993-04-28"
+}
+--------------------------
