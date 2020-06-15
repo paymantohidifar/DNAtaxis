@@ -3,6 +3,7 @@ from .kmer import Kmer
 import re as re
 from itertools import product
 from zipfile import ZipFile
+from numpy import mod
 
 
 class Chromosome(Sequence):
@@ -25,6 +26,8 @@ class Chromosome(Sequence):
 
     def process_motifs(self):
         kmerseqlst = [self.get_sequence()] if self.get_sequence() else self.create_kmer_seqs(self.kmersize)
+        len_kmerseqlst = len(kmerseqlst)
+        counter = 1
         for kmerseq in kmerseqlst:
             kmerobj = Kmer(kmerseq)
             chrseq_gen = self.chromosome_seq_generator()
@@ -33,6 +36,9 @@ class Chromosome(Sequence):
             kmerprop.setdefault('kmer seq', '/'.join([kmerseq, self.reverse_complement(kmerseq)]))
             kmerprop.setdefault('count', kmerobj.get_counts())
             kmerprop.setdefault('mean distance', kmerobj.get_mean_dist())
+            if mod(counter, round(len_kmerseqlst/10)) == 0:
+                print('{} % completed ...'.format(round(counter/len_kmerseqlst*100)))
+            counter += 1
             yield kmerprop
 
     def chromosome_seq_generator(self):
